@@ -1,0 +1,15 @@
+# 忽略虛擬環境資料夾
+venv/
+env/
+
+# 忽略編譯產生的檔案
+*.pyc
+*.pyo
+
+# 忽略 IDE 或編輯器的設定檔
+.vscode/
+.idea/
+
+# 忽略操作系統產生的檔案
+.DS_Store
+Thumbs.db
