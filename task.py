@@ -102,15 +102,60 @@
 
 # not只能用在 if else condition中
 
+# import random
+
+# # 10 - 1 之間random integer
+# randominteger = random.randint(1, 10)
+
+# # 0 - 1 之間的random 
+# random_0_to_1 = random.random()
+
+# # 10 - 1 之間的random float
+# radom_uiform = random.uniform(1,10)
+
+# print(radom_uiform)
+
 import random
+# taiwan_city = [
+# '臺北市',
+#   '新北市',
+#   '桃園市',
+#   '臺中市',
+#   '臺南市',
+#   '高雄市',
+#   '基隆市',
+#   '新竹市',
+#   '嘉義市',
+#   '新竹縣',
+#   '苗栗縣',
+#   '彰化縣',
+#   '南投縣',
+#   '雲林縣',
+#   '嘉義縣',
+#   '屏東縣',
+#   '宜蘭縣',
+#   '花蓮縣',
+#   '臺東縣',
+#   '澎湖縣',
+#   '金門縣',
+#   '連江縣'
+# ]
 
-# 10 - 1 之間random integer
-randominteger = random.randint(1, 10)
+# # -number 則是從 list的尾開始算 -1 倒數第一個
+# # 0 則是list 的頭
 
-# 0 - 1 之間的random 
-random_0_to_1 = random.random()
+# taiwan_city[0] = 'taipei city'
+# # 加入array
+# taiwan_city.append('苗栗國')
+# # 合併arrary
+# taiwan_city.extend(['new taipei city', 'taichung city'])
 
-# 10 - 1 之間的random float
-radom_uiform = random.uniform(1,10)
+# # random 可以隨意選擇 array中其中一個
+# # print( random.choice(taiwan_city) )
 
-print(radom_uiform)
+# # random 另一種方式 , 可以設定選擇範圍
+# # random_idx =
+# radom_idx = random.randint(0,6)
+
+# list_len = len(taiwan_city) -1
+# print( taiwan_city[list_len] )
