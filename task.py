@@ -50,7 +50,7 @@
 # print(round(30.89 , 1)) #小數點後幾位
 
 # number_var = 23132
-bool_var = False
+# bool_var = False
 # float_var = 0.421
 # print('number: '+ str(number_var))
 
@@ -101,3 +101,16 @@ bool_var = False
 
 
 # not只能用在 if else condition中
+
+import random
+
+# 10 - 1 之間random integer
+randominteger = random.randint(1, 10)
+
+# 0 - 1 之間的random 
+random_0_to_1 = random.random()
+
+# 10 - 1 之間的random float
+radom_uiform = random.uniform(1,10)
+
+print(radom_uiform)
