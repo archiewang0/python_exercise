@@ -159,3 +159,12 @@ import random
 
 # list_len = len(taiwan_city) -1
 # print( taiwan_city[list_len] )
+
+def format_name(frist_name: str , last_name: str):
+    format_first_name =  frist_name.title()
+    format_last_name = last_name.title()
+    return f"""{format_first_name} {format_last_name}"""
+
+
+output = format_name(frist_name='aRChIe' , last_name='wAnG')
+print(output)
